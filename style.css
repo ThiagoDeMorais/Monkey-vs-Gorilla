@@ -2,6 +2,60 @@
     box-sizing: border-box;
 }
 
+body{
+    text-align: center;
+}
+
+.board{
+    width: 400px;
+    height: 325px;
+    background-color:rgb(19, 19, 19);
+    padding-top: 15px;
+    margin: auto;
+}
+
+.square{
+    background-color: rgb(52, 152, 219);
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+
+}
+
+.m{
+
+}
+
+.m:after{
+    content: "\1F412";
+    font-size: 50px;
+    line-height:100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.g{
+
+}
+
+.g:after{
+    content: "\1F98D";
+    font-size: 50px;
+    line-height:100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
 .popup-wrapper{
     background: rgba(0, 0 , 0, .5);
     position: fixed;
