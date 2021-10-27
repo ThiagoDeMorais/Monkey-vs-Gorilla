@@ -94,9 +94,13 @@ h1{
 
 }
 
+.image:hover{
+    background-image:url(./background-monkey.jpg);
+}
+
 .image:active{
     width: 90%;
-    height: 90%px;
+    height: 90%;
 }
 
 .great-container{
