@@ -2,6 +2,9 @@ let board = ['','','',
              '','','',
              '','',''];
 
+const victorySceneries = [[0,1,2],[3,4,5],[6,7,8],
+                          [0,3,6],[1,4,7],[2,5,8],
+                          [0,4,8],[2,4,6]];
 
 let turnPlayer = 0;
 let playerSymbols = ['m','g'];
@@ -20,10 +23,26 @@ function handleTurn(position){
       turnPlayer = 1;
    }
 
-
+   checkVictory();
 }
 
 const assignTurnPlayer = id => {
      turnPlayer = id;
 }
 
+function checkVictory(){
+   for(let i = 0; i<victorySceneries.length; i++){
+      const firstIndex =  victorySceneries[i][0];
+      const secondIndex =  victorySceneries[i][1];
+      const thirdIndex =  victorySceneries[i][2];
+
+      const positionsIsEqual = (board[firstIndex] === board[secondIndex]) 
+                               && (board[firstIndex]) === board[thirdIndex];
+
+      if(board[firstIndex] !== '' && positionsIsEqual ){
+         console.log("Acabou")
+         return;
+      }
+
+   }
+} 
