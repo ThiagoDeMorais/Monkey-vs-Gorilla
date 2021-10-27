@@ -95,7 +95,7 @@ h1{
 }
 
 .image:hover{
-    background-image:url(./background-monkey.jpg);
+    background-image:url(/images/background-monkey.jpg);
 }
 
 .image:active{
@@ -115,3 +115,10 @@ h1{
     display: inline-block;
 }
 
+
+button{
+    background-color: gold;
+    color: black;
+    border-radius: 25%;
+    font-weight: bolder;
+}
