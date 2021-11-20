@@ -1,14 +1,18 @@
-# Monkey-vs-Gorilla (Tic-Tac-Toe)
+<h1 align="center">
+    <img  src = "images/Banner.png">
+    <br>
+    Monkey-vs-Gorilla (Tic-Tac-Toe)
+<h1>
 
-<p>
-    <img src = "images/Banner.png">
-<p>
+<h1 align="center">
+    Sobre
+<h1>
 
-# Sobre
-
+<p align="center">
     Uma versão do famoso Tic-tac-toe (Jogo da velha)
+</p>
 
-<p>
+<p  align="center">
     <img src = "images/Animacao.gif">
 <p>
     
