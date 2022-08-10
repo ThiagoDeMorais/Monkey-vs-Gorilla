@@ -1,8 +1,4 @@
-<h1 align="center">
-    <img  src = "images/Banner.png">
-    <br>
-    Monkey-vs-Gorilla (Tic-Tac-Toe)
-<h1>
+
 
 <h1 align="center">
     Sobre
